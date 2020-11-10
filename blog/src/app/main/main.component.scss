@@ -1,0 +1,26 @@
+  article {
+    display: grid;
+    grid-template-columns: 554px;
+    grid-template-areas:
+      ". el1 ."
+      ". el2 ."
+      ". el3 ."
+    ;
+    width: 554px;
+    padding-top: 10px;
+    
+    h1 {
+      grid-area: el1;
+      align-self: flex-start;
+      font-size: 26px;
+    }
+
+    img {
+      grid-area: el2;
+      padding: 5px 0 5px 0;
+    }
+
+    label {
+      grid-area: el3;
+    }
+  }
