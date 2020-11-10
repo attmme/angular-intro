@@ -1,0 +1,25 @@
+$mainColor: #F67878;
+$imgColor: #d3d3d3;
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  background-color: $mainColor;
+
+  li {
+    display: flex;
+    flex-direction: column;
+
+    img {
+        padding: 10px;
+        background-color: $imgColor;
+    }
+
+    label {
+      color: white;
+    }
+  }
+
+}
